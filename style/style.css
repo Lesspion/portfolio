@@ -1,0 +1,150 @@
+body
+{
+    background-image: url('../Images/back3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    opacity: 0.7;
+    
+}
+.content
+{
+    margin: auto;
+    width: 900px;
+    color: white;
+    font-size: 1.5em;
+    margin-top: 100px;
+    position: relative;
+}
+
+@media screen and (max-width:500px)
+{
+    body {
+        background-color: white;
+    }
+}
+
+.funcSyntax {
+    color: #d10a8b;
+    font-style: oblique;
+}
+
+.accLeft {
+    font-size: 2em;
+    width: auto;
+    color: white;
+}
+
+.tab {
+    margin-left: 100px;
+}
+
+.doubleTab {
+    margin-left: 50px;;
+}
+
+.describe {
+    /*background-color: dimgray;*/
+    color: forestgreen;
+}
+
+.newSyntax {
+    color: skyblue;
+    font-style: oblique;
+}
+
+.objectSyntax {
+    color: wheat;
+    font-style: oblique;
+}
+
+.accObject {
+    font-size: 1.2em;
+    width: auto;
+    color: white;
+}
+
+.bool {
+    color: darkorange;
+}
+
+.var {
+    color: deepskyblue;
+}
+
+.defaultTab {
+    margin-left: 0px;
+}
+
+#toff {
+    position: fixed;
+}
+
+.titoff {
+    overflow: hidden;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    width: 10%;
+    height: 15%;
+    
+}
+
+.link {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-left: 75px;
+    margin-top: 5px;
+}
+
+footer {
+    color: wheat;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+a.info{
+    position: relative;
+    z-index: 24;
+    color: #FFF;
+    text-decoration: none;
+}
+
+a.info:hover {
+    z-index: 25;
+    /*background-color: #FFF;*/
+    color: red
+}
+
+a.info span {
+    display: none;
+}
+
+a.info:hover span {
+    display: block;
+    position: absolute;
+    top: -22em;
+    background-color: #FFF;
+    left: 8em;
+    width: 20em;
+    border: 1px solid #000;
+    color: #000;
+    text-align: justify;
+    padding: 5px;
+}
+
+.bubble {
+    width: 450px;
+    height: 450px;
+}
+
+#contact {
+    width: 500px;
+    height: 300px;
+    margin-left: 45em;
+}
+
+#mail, #name {
+    width: 22.5em;
+}
